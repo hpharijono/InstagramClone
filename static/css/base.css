@@ -1,0 +1,76 @@
+:root {
+    font-size: 16px;
+}
+
+.insta-logo {
+    width: 150px;
+}
+
+.post {
+    margin-bottom: 2rem;
+}
+
+.post:first-child {
+    margin-top: 2rem;
+}
+
+.post-header {
+    background-color: white;
+}
+
+.post-header i {
+    font-size: 1.6rem;
+}
+
+.post-header i:hover {
+    cursor: pointer;
+}
+
+.post-footer {
+    background-color: white;
+}
+.post-reactions {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+}
+
+.post-reactions i {
+    font-size: 1.6rem;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.post-reactions i:hover {
+    cursor: pointer;
+}
+
+.post-reactions i:last-child {
+    margin-right: 0;
+}
+
+.post-user-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-info .post-time {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.post-info .likes {
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+}
+
+.post-info .post-description {
+    margin-bottom: 0;
+}
+
+.post-info .view-comments {
+    color: gray;
+}
