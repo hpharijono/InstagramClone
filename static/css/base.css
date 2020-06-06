@@ -2,6 +2,36 @@
     font-size: 16px;
 }
 
+/* HEADER */
+.nav-header {
+    border-bottom: 1px solid lightgray;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-search {
+    text-align: center;
+}
+
+.header-user-img {
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    align-self: center;
+    vertical-align: middle;
+}
+
 .insta-logo {
     width: 150px;
 }
@@ -73,4 +103,93 @@
 
 .post-info .view-comments {
     color: gray;
+}
+
+.user-info {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.stories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: solid lightgray 1px;
+    border-radius: 5px;
+}
+
+.stories span {
+    background-color: white;
+    border-radius: 50%;
+    width: 36px;
+    border: solid black 1px;
+}
+
+.stories span i {
+    text-align: center;
+}
+
+.stories ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0.4rem;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.story-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.4rem;
+    text-align: center;
+}
+
+.story-item img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: solid red 1px;
+    padding: 2px;
+}
+
+.suggestions {
+    margin-top: 2rem;
+    padding: 0rem 1rem;
+    font-size: 0.8rem;
+}
+
+.suggestions ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.suggestions ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.suggestions-item {
+    display: flex;
+    align-items: center;
+}
+
+.suggestions-user {
+    font-weight: 500;
 }
