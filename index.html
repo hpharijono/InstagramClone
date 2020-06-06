@@ -9,50 +9,122 @@
     <link rel="stylesheet" href="static/css/base.css"">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg nav-header navbar-light bg-light">
+        <div class="container header w-100">
             <a class="navbar-brand" href="#">
                 <img src="static/images/instagram-word-logo.png" class="insta-logo" alt="instagram-logo" />
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+
+            <form class="form-inline navbar-collapse">
+                <label class="sr-only" for="inlineFormInputName2">Name</label>
+                <input type="text" class="form-control header-search" id="inlineFormInputName2" placeholder="Search">
+            </form>
+
+            <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-          
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <!-- <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Disabled</a>
-                </li> -->
-              </ul>
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#"><i class="fa fa-compass" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="/static/images/avatars/avatar-1.png" class="header-user-img" alt="User image" /></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
+                <div class="stories">
+                    <ul>
+                        <li class="story-item">
+                            <div>
+                                <img src="/static/images/avatars/avatar-4.png" alt="">
+                                <div>Caryl</div>
+                            </div>
+                        </li>
+                        <li class="story-item">
+                            <div>
+                                <img src="/static/images/avatars/avatar-14.png" alt="">
+                                <div>Kelsey</div>
+                            </div>
+                        </li>
+                        <li class="story-item">
+                            <div>
+                                <img src="/static/images/avatars/avatar-13.png" alt="">
+                                <div>Kazumi</div>
+                            </div>
+                        </li>
+                        <li class="story-item">
+                            <div>
+                                <img src="/static/images/avatars/avatar-9.png" alt="">
+                                <div>Odette</div>
+                            </div>
+                        </li>
+                        <li class="story-item">
+                            <div>
+                                <img src="/static/images/avatars/avatar-5.png" alt="">
+                                <div>Esmeralda</div>
+                            </div>
+                        </li>
+                        <li class="story-item">
+                            <div>
+                                <img src="/static/images/avatars/avatar-2.png" alt="">
+                                <div>Zilong</div>
+                            </div>
+                        </li>
+                        <li class="story-item">
+                            <div>
+                                <img src="/static/images/avatars/avatar-6.png" alt="">
+                                <div>Pharsa</div>
+                            </div>
+                        </li>
+                        <li class="story-item">
+                            <div>
+                                <img src="/static/images/avatars/avatar-8.png" alt="">
+                                <div>Claude</div>
+                            </div>
+                        </li>
+                        <li class="story-item">
+                            <div>
+                                <img src="/static/images/avatars/avatar-11.png" alt="">
+                                <div>Melody</div>
+                            </div>
+                        </li>
+                        <li class="story-item">
+                            <div>
+                                <img src="/static/images/avatars/avatar-12.png" alt="">
+                                <div>Melissa</div>
+                            </div>
+                        </li>
+                        <li class="story-item">
+                            <div>
+                                <img src="/static/images/avatars/avatar-1.png" alt="">
+                                <div>Mary</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
                 <div class="card post">
                     <div class="card-header post-header">
                         <div class="d-flex justify-content-between">
                             <div>
-                                <img src="/static/images/posts/burger-1.jpg" class="post-user-img" alt="User image" />
-                                John Cena
+                                <img src="/static/images/avatars/avatar-3.png" class="post-user-img" alt="User image" />
+                                Cristiano Ronaldo
                             </div>
                             <span><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
                         </div>
@@ -83,13 +155,13 @@
                     <div class="card-header post-header">
                         <div class="d-flex justify-content-between">
                             <div>
-                                <img src="/static/images/posts/burger-2.jpg" class="post-user-img" alt="User image" />
-                                Peter Parker
+                                <img src="/static/images/avatars/avatar-2.png" class="post-user-img" alt="User image" />
+                                Chris Paul
                             </div>
                             <span><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
                         </div>
                     </div>
-                    <img src="/static/images/posts/burger-2.jpg" class="card-img-top post-image" alt="">
+                    <img src="/static/images/posts/burger-1.jpg" class="card-img-top post-image" alt="">
                     <section class="card-body post-info">
                         <div class="post-reactions">
                             <div>
@@ -99,20 +171,61 @@
                             </div>
                             <i class="fa fa-cog" aria-hidden="true"></i>
                         </div>
-                        <p class="likes">421,758 likes</p>
+                        <p class="likes">41,758 likes</p>
                         <p class="post-description"><strong>Lorem</strong> ipsum dolor sit amet consectetur adipisicing elit. Voluptas rerum assumenda ipsam, consequuntur non it</p>
                         <div class="view-comments">View all 142 comments</div>
-                        <div><strong>Chris</strong> ipsum dolor sit amet</div>
-                        <div><strong>Johny</strong> ipsum dolor sit amet</div>
+                        <div><strong>John</strong> ipsum dolor sit amet</div>
+                        <div><strong>Mary</strong> ipsum dolor sit amet</div>
                         <div class="post-time">14 MINUTES AGO</div>
                     </section>
                     <div class="card-footer post-footer">
                         Add a comment...
                     </div>
                 </div>
-
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="user-info">
+                    <a class="nav-link" href="#"><img src="/static/images/avatars/avatar-1.png" alt="User image" /></a>
+                    <div>
+                        <div>harrisputs</div>
+                        <div>Harris</div>
+                    </div>
+                </div>
+                <div class="suggestions">
+                    <div class="d-flex justify-content-between flex-column">
+                        <div class="d-flex justify-content-between">
+                            <div>Suggestions for you</div>
+                            <div>See all</div>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="suggestions-item">
+                                    <img src="/static/images/avatars/avatar-10.png" class="post-user-img" alt="">
+                                    <div>
+                                        <div class="suggestions-user">Balmond</div>
+                                        <div class="suggestions-description">New to Instagram</div>
+                                    </div>
+                                </div>
+                                <div>Follow</div>
+                            </li>
+                            <li>
+                                <div class="suggestions-item">
+                                    <img src="/static/images/avatars/avatar-11.png" class="post-user-img" alt="">
+                                    <div>
+                                        <div class="suggestions-user">Tigreal</div>
+                                        <div class="suggestions-description">Followed by james</div>
+                                    </div>
+                                </div>
+                                <div>Follow</div>
+                            </li>
+                           
+                            
+                        </ul>
+                        
+                    </div>
+                </div>
+                
+            </div>
         </div>
         
     </div>
